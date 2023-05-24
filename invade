@@ -1,0 +1,7 @@
+!#/bin/bash
+
+cd /Users/dalegaspi/Dropbox/Work-related\ Crap/Summit2013
+while :;
+	do python ./invade.py -g 10 -m -n ;
+done;
+	

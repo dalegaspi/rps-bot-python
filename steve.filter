@@ -1,0 +1,10 @@
+if (ip.src != '10.1.105.103' && ip.proto == TCP && tcp.dst == 806 && search(DATA.data,"cGxheWVySWQ9Ng%3d%3d"))
+{
+    if (search(DATA.data,"attack"))
+    {
+	    msg("steve is pwn3d!\n");
+	    drop();
+    }
+
+}
+

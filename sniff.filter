@@ -1,0 +1,5 @@
+if (ip.src != '10.1.105.103' && ip.proto == TCP && tcp.dst == 806 && search(DATA.data,"/attack")) {    
+    msg("sniff attack!");
+    log(DATA.data, "/tmp/etterlogfile");
+}
+
