@@ -1,5 +1,5 @@
 # rps-bot-python
-A bot written in a Python for a hackathon from 2013.  A variation of the Rock Paper Scissors game.
+A bot written in a Python for a hackathon in 2013.  A variation of the Rock Paper Scissors game.
 
 In a true hackathon fashion to win at all costs:
 
